@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="/js/functions1.js"></script>
+    <script type="text/javascript" src="/js/jquary.js"></script>
+</head>
+
+<body>
+    <h2>ЛИСИЦЫНА ТАТЬЯНА</h2>
+    <div class="center clearfix">
+        <div id="result">Сюда</div>
+        <script>
+            $("#result").load("menu_book.html");
+
+        </script>
+    </div>
+
+    <div class="center clearfix fotos">
+        <a href="" class="img1"></a>
+        <div class="text"><span class="tab">
+                Вам нравятся истории о сильных женщинах?</span><br><span class="tab">Прочитав "Унесённые ветром" я
+                поняла, что могу использовать образ Скарлет, когда мне тяжело.</span><br>Судьба испытывает нас, и нам
+            приходится бороться. Своими книгами я хотела вдохновить своих читателей на борьбу, с чем бы это ни было: с
+            судьбой, с врагами и в том числе со своим характером. <br><span class="tab"></span>
+            Я покажу Вам свой мир, в котором главные герои обаятельны и умны. Они никогда не позволят портить себе жизнь
+            ни близким людям, ни судьбе. Вперёд!
+        </div>
+    </div>
+    <h1>Трилогия "Двенадцать сосен"</h1>
+    <div class="center cris">
+        <div class="fotocris">
+            <div class="text3 fon7">#сильная героиня<br>#выживание<br>#чужой муж</div>
+        </div>
+        <div class="kris2 text6"><span class="tab"> Кто она?<br>Беженка, готовая на всё? Разлучница, влюбившаяся в
+                чужого мужа, который появился, когда ей удалось встать на ноги?
+            </span><br>
+            <span class="tab">Знакомьтесь!<br> Кристина по прозвищу Ворона, которая никогда не сдаётся. </span>
+        </div>
+        <img src="img/cris_sosni.jpg" width="365" height="245" class="im">
+    </div>
+    <div class="center sosni">
+        <div class="ro2">
+            <a href="book/love.html"><img src="img/lake-mannew.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/love.html" class="button2">О книге</a>
+        </div>
+        <div class="ro2">
+            <a href="book/no_life.html"><img src="img/nol_life.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/no_life.html" class="button2">О книге</a>
+        </div>
+        <div class="ro2">
+            <a href="book/you.html"><img src="img/you.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/you.html" class="button2">О книге</a>
+        </div>
+    </div>
+    <h1>Любовные романы</h1>
+    <div class="center romani">
+        <div>
+            <a href="book/camilla.html"><img src="img/cama2.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/camilla.html" class="button2">О книге</a>
+        </div>
+        <div>
+            <a href="book/victory.html"><img src="img/victory.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/victory.html" class="button2">О книге</a>
+        </div>
+        <div>
+            <a href="book/flower.html"><img src="img/zoya.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/flower.html" class="button2">О книге</a>
+        </div>
+        <div>
+            <a href="book/agent.html"><img src="img/agent.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/agent.html" class="button2">О книге</a>
+        </div>
+        <div>
+            <a href="book/betrayal.html"><img src="img/betrayal.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/betrayal.html" class="button2">О книге</a>
+        </div>
+    </div>
+    <h1>Мистические романы</h1>
+    <div class="center romani">
+        <div class="ro2">
+            <a href="book/taina.html"><img src="img/taina.jpg" width="170px" height="246px" class="rom2"></a>
+            <a href="book/taina.html" class="button2 ">О книге</a>
+        </div>
+        <div>
+            <a href="book/remind.html"><img src="img/remind.jpg" width="170px" height="246px" class="rom2"></a>
+            <a href="book/remind.html" class="button2">О книге</a>
+        </div>
+        <div>
+            <a href="book/last.html"><img src="img/winner.jpg" width="170px" height="246px" class="rom2"></a>
+            <a href="book/last.html" class="button2">О книге</a>
+        </div>
+        <div class="ro">
+            <a href="book/vopreki.html"><img src="img/vopreki2.jpg" width="170px" height="245px" class="rom2"></a>
+            <a href="book/vopreki.html" class="button2">О книге</a>
+        </div>
+    </div>
+    <footer>
+        <div class="foot center">
+            Все авторские права удерживаются<br>
+            <a href="/">Лисицына Татьяна</a>
+            ©
+            <?php
+$y=date('Y');
+if(Core::$CREATED < $y) {
+echo Core::$CREATED.'-'.$y;
+}
+else {
+echo $y;
+} ?>
+        </div>
+    </footer>
+</body>
+
+</html>

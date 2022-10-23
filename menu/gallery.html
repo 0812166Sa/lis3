@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="../css/style1.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+    function openImageWindow(src) {
+        var image = new Image();
+        image.src = src;
+        var width = image.width;
+        var height = image.height;
+        window.open(src, "Image", "width=" + width + ",height=" + height);
+    }
+
+</script>
+</head>
+
+<body>
+    <h1>То, что вдохновляет</h1>
+
+    <table style='margin: 0 auto;' border='1'>
+        <tr>
+            <td>
+                <img src='/menu/galery.html/img/gallery1.jpg' alt='Фотография' width='300' height='200'
+                    onclick='openImageWindow(this.src);'>
+            </td>
+            <td>
+                <img src='/menu/img/gallery2.jpg' alt='Фотография' width='300' height='200'
+                    onclick='openImageWindow(this.src);'>
+            </td>
+            <td>
+                <img src='/menu/img/gallery3.jpg' alt='Фотография' width='300' height='200'
+                    onclick='openImageWindow(this.src);'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src='/menu/img/gallery4.jpg' alt='Фотография' width='300' height='200'
+                    onclick='openImageWindow(this.src);'>
+            </td>
+            <td>
+                <img src='/menu/img/gallery5.jpg' alt='Фотография' width='300' height='200'
+                    onclick='openImageWindow(this.src);'>
+            </td>
+            <td>
+                <img src='/menu/img/gallery6.jpg' alt='Фотография' width='300' height="200"
+                    onclick='openImageWindow(this.src);'>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
