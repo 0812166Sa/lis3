@@ -5,10 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="../css/style1.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
 
 </head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript">
+<script>
     function openImageWindow(src) {
         var image = new Image();
         image.src = src;
@@ -21,39 +22,48 @@
 </head>
 
 <body>
-    <h1>То, что вдохновляет</h1>
-
-    <table style='margin: 0 auto;' border='1'>
+    <div class="reg2"></div>
+    <div id="result"></div>
+    <script>
+        $("#result").load("../menu_book.html");  
+    </script>
+    <h2>То, что меня вдохновляет</h2>
+    <table class="gallery">
         <tr>
             <td>
-                <img src='../book/img/gallery1.html' alt='Фотография' width='300' height='200'
+                <img src='../menu/img/gallery1.jpg' alt='Фотография' width='300' height='200'
                     onclick='openImageWindow(this.src);'>
             </td>
             <td>
-                <img src='../book/img/gallery2.jpg' alt='Фотография' width='300' height='200'
+                <img src='../menu/img/gallery2.jpg' alt='Фотография' width='300' height='200'
                     onclick='openImageWindow(this.src);'>
             </td>
             <td>
-                <img src='../book/img/gallery3.jpg' alt='Фотография' width='300' height='200'
+                <img src='../menu/img/gallery3.jpg' alt='Фотография' width='300' height='200'
                     onclick='openImageWindow(this.src);'>
             </td>
         </tr>
         <tr>
             <td>
-                <img src='../book/img/gallery4.jpg' alt='Фотография' width='300' height='200'
+                <img src='../menu/img/gallery4.jpg' alt='Фотография' width='300' height='200'
                     onclick='openImageWindow(this.src);'>
             </td>
             <td>
-                <img src='../book/img/gallery5.jpg' alt='Фотография' width='300' height='200'
+                <img src='../menu/img/gallery5.jpg' alt='Фотография' width='300' height='200'
                     onclick='openImageWindow(this.src);'>
             </td>
             <td>
-                <img src='../book/img/gallery6.jpg' alt='Фотография' width='300' height="200"
+                <img src='../menu/img/gallery6.jpg' alt='Фотография' width='300' height="200"
                     onclick='openImageWindow(this.src);'>
             </td>
         </tr>
     </table>
 
 </body>
+<footer>
+    <div class="foot center">
+        Все авторские права защищены<br>
+        © Лисицына Татьяна 2022</div>
+</footer>
 
 </html>

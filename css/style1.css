@@ -10,24 +10,10 @@ body {
     min-height: 100%;
 }
 
-.main {
-    padding-bottom: 80px;
-
-}
-
 .foto {
     padding-top: 30px;
 }
 
-.vxod {
-    margin-left: 80px;
-}
-
-.vxod,
-.rega {
-    padding: 15px;
-    float: right;
-}
 
 .reg2 {
     background-color: #af24a7;
@@ -48,91 +34,13 @@ body {
     color: floralwhite;
 }
 
-.mail {
-    margin-right: 22px;
 
-}
-
-.email {
-    margin-right: 20px;
-}
-
-#key1 {
-    margin-left: 24px;
-}
 
 .form2 {
     color: floralwhite;
     padding: 13px 0 0 85px;
 }
 
-.clear {
-    clear: both;
-}
-
-#close2:hover {
-    opacity: 1;
-}
-
-#close:hover {
-    opacity: 1;
-}
-
-#close:before,
-#close:after {
-    position: absolute;
-    content: ' ';
-    height: 23px;
-    width: 2px;
-    background-color: floralwhite;
-}
-
-#close2:before,
-#close2:after {
-    position: absolute;
-    content: ' ';
-    height: 23px;
-    width: 2px;
-    background-color: floralwhite;
-    left: 230px;
-    top: 0;
-}
-
-#close:before {
-    transform: rotate(45deg);
-}
-
-#close:after {
-    transform: rotate(-45deg);
-}
-
-#close2:before {
-    transform: rotate(45deg);
-}
-
-#close2:after {
-    transform: rotate(-45deg);
-}
-
-#open,
-#open2 {
-    position: absolute;
-    padding-top: 20px;
-    background-color: #af24a7;
-    width: 250px;
-    height: 200px;
-    top: 60px;
-    border-radius: 20px;
-}
-
-#open2 {
-    right: 260px;
-    display: none;
-}
-
-#open {
-    right: 100px;
-}
 
 .reg2 {
     font-family: 'Oswald light', sans-serif;
@@ -155,6 +63,8 @@ body {
     font-size: 21px;
     text-align: justify;
     min-height: 400px;
+    padding-top: 15px;
+
 }
 
 .me_text {
@@ -165,6 +75,13 @@ body {
     width: 400px;
     text-align: justify;
     text-decoration: none;
+
+}
+
+.me_contacts {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 21px;
 
 }
 
@@ -189,16 +106,13 @@ body {
 
 .nolovetext {
     width: 400px;
-    margin: 30px 0 0 20px;
+    margin: 30px 0 0 0;
     text-align: justify;
     min-height: 700px;
-    font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
 
-.textstor {
-    font-size: 18px;
-}
+
 
 .button {
     margin: 30px 50px 30px 110px;
@@ -340,18 +254,28 @@ a.button2 {
 .text6 {
     font-size: 17px;
     width: 340px;
-    padding: 20px 0;
 }
 
 .text {
     font-size: 17px;
     width: 450px;
-    padding: 35px 0;
+    padding: 10px 0;
 }
 
+.gallery {
+    padding-bottom: 48px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: "1";
+}
 
 .tab {
     padding-left: 40px;
+}
+
+.textstor {
+    font-size: 18px;
+
 }
 
 .text20 {
@@ -382,25 +306,48 @@ h2 {
     font-size: 25px;
 }
 
-#close {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    opacity: 0.3;
-    right: 0;
-    top: 0;
-}
 
 .center {
     margin: auto;
     width: 970px;
 }
 
+.me2 a {
+    text-decoration: none;
+    color: #af24a7;
+}
+
+.me2 a:hover {
+    color: red;
+}
+
+.me a {
+    text-decoration: none;
+    color: #af24a7;
+}
+
+.me a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.table {
+    margin: 0 auto;
+
+
+}
+
+.table1 {
+    min-height: 500px;
+    margin-top: 15px;
+
+}
+
 #menu {
     min-height: 40px;
     display: inline-block;
-    width: 680px;
-    margin-left: 200px;
+    width: 536px;
+    margin: 0 218px 0 218px;
 }
 
 .dropmenu {
@@ -608,6 +555,7 @@ footer {
 
 .ro {
     min-height: 450px;
+
 }
 
 .ro2 {
