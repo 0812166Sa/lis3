@@ -89,6 +89,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    ;
 
 }
 
@@ -554,10 +555,11 @@ footer {
 }
 
 .ro {
-    min-height: 450px;
+    min-height: 400px;
 
 }
 
 .ro2 {
     width: 170px;
+    margin-bottom: 17px;
 }
